@@ -34,7 +34,7 @@ public class A4Q10 extends javax.swing.JFrame {
         degCel = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Temperature Convertor");
+        setTitle("Temperature Converter");
 
         jLabel1.setText("Degrees Fahrenheit");
 
