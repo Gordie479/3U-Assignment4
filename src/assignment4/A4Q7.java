@@ -20,21 +20,18 @@ public class A4Q7 {
 
 
         Scanner input = new Scanner(System.in);
+
         int pos = 1;
+
         while (pos < 100) {
-        System.out.println("Your current position is " + pos + ". Enter the roll of the dice.");
-        int roll = input.nextInt();
 
-
-
-
+            System.out.println("Your current position is " + pos + ". Enter the roll of the dice.");
+            int roll = input.nextInt();
+            
             if (roll < 2 || roll > 12) {
-
                 System.out.println("Invalid number. Enter the roll of the dice.");
             }
-
             if (roll >= 2 && roll <= 12) {
-
                 pos = roll + pos;
 
                 if (pos == 54) {
